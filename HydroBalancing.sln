@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydroBalancing", "HydroBalancing.csproj", "{84D6BEBD-18F3-4AF5-8394-DF4D4432ABF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84D6BEBD-18F3-4AF5-8394-DF4D4432ABF0}.Debug|x64.ActiveCfg = Debug|x64
+		{84D6BEBD-18F3-4AF5-8394-DF4D4432ABF0}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCA9C502-F8A0-49DA-985B-E3F71A163329}
+	EndGlobalSection
+EndGlobal
