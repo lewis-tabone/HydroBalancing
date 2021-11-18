@@ -61,8 +61,8 @@ public void Main(string argument, UpdateType updateSource)
                     cargo.TransferItemTo(gen.GetInventory(0), ice, 1);
             }
         }
-        Echo("Managing ice consumption as tanks fill...");
+        Echo("Rusty says for you to mind your own business.");
     }
     else
-        Echo("Tanks are full. Standing by.");
+        Echo("Nothing happening here.");
 }
