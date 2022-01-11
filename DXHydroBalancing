@@ -36,7 +36,7 @@ public void Main(string argument, UpdateType updateSource)
 {
     bool tankSpace = false; foreach (IMyGasTank tank in tanks)
     {
-        if (tank.FilledRatio < 1)
+        if (tank.FilledRatio < 25)
         {
             tankSpace = true;
         }
@@ -50,9 +50,9 @@ public void Main(string argument, UpdateType updateSource)
             if (gen.GetInventory(0).ItemCount == 0)
             {
                 if (gen.CustomName.Contains("Oxygen Generator"))
-                    cargo.TransferItemTo(gen.GetInventory(0), ice, 1);                
+                    cargo.TransferItemTo(gen.GetInventory(0), ice, 25);                
                 else
-                    cargo.TransferItemTo(gen.GetInventory(0), ice, 1);
+                    cargo.TransferItemTo(gen.GetInventory(0), ice, 25);
             }
         }
         Echo("Rusty says for you to mind your own business.");
