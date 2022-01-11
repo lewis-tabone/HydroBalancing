@@ -36,7 +36,7 @@ public void Main(string argument, UpdateType updateSource)
 {
     bool tankSpace = false; foreach (IMyGasTank tank in tanks)
     {
-        if (tank.FilledRatio < 25)
+        if (tank.FilledRatio < 1)
         {
             tankSpace = true;
         }
